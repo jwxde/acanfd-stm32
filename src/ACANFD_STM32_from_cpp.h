@@ -16,6 +16,8 @@
   #include "ACANFD-STM32-fixed-ram-sections.h"
 #elif defined (ARDUINO_NUCLEO_H723ZG)
   #include "ACANFD-STM32-programmable-ram-sections.h"
+#elif defined (ARDUINO_B_G431B_ESC1)
+  #include "ACANFD-STM32-fixed-ram-sections.h"
 #else
   #error "Unhandled Nucleo Board"
 #endif

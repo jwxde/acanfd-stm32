@@ -16,6 +16,8 @@
   #include "ACANFD_STM32_NUCLEO_G0B1RE-objects.h"
 #elif defined (ARDUINO_NUCLEO_H723ZG)
   #include "ACANFD_STM32_NUCLEO_H723ZG-objects.h"
+#elif defined (ARDUINO_B_G431B_ESC1)
+  #include "ACANFD_STM32_DISCO_B_G431B_ESC1-objects.h"
 #else
   #error "Unhandled Nucleo Board"
 #endif
